@@ -40,6 +40,9 @@ class Calculator {
     etc
      */
     int fibonacciNumberFinder(int n){
+        if (n == 0) return 0;
+        if (n == 1) return 1;
+
         int[] fib = new int[n+1];
         fib[0] = 0;
         fib[1] = 1;
