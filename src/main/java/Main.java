@@ -21,6 +21,9 @@ public class Main {
       else if (Objects.equals(commands[0], "multiply")) {
         System.out.println(calculator.multiply(Integer.parseInt(commands[1]), Integer.parseInt(commands[2])));
       }
+      else if (Objects.equals(commands[0], "divide")) {
+        System.out.println(calculator.divide(Integer.parseInt(commands[1]), Integer.parseInt(commands[2])));
+      }
       else if (Objects.equals(commands[0], "fibonacci")) {
         System.out.println(calculator.fibonacciNumberFinder(Integer.parseInt(commands[1])));
       }
